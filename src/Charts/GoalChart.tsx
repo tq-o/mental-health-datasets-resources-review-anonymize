@@ -71,7 +71,7 @@ export default function GoalChart({ x, y }: any) {
           {
             data: paginatedX,
             scaleType: "band",
-            label: "Goal",
+            label: "Mental Disorder",
             width: 200,
           },
         ]}
@@ -109,7 +109,7 @@ export default function GoalChart({ x, y }: any) {
         gutterBottom
         sx={{ mt: 2 }}
       >
-        This chart shows the number of papers associated with each goal category.
+        This chart shows the number of papers associated with each mental disorder category.
       </Typography>
     </Box>
   );

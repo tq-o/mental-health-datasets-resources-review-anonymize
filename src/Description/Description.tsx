@@ -24,7 +24,9 @@ export default function Description() {
         </p>
 
         <p style={styles.paragraph}>
-        This website serves as the interactive companion to our paper. Unlike previous surveys that focus on specific
+        This website serves as the interactive companion to our paper
+        {/* ,<em> [Insert Paper Title]</em> */}
+        . Unlike previous surveys that focus on specific
         tasks or single modalities, this resource offers a holistic view of
         268 datasets, <strong>categorized by:</strong>
         </p>
@@ -94,7 +96,11 @@ export default function Description() {
         </li>
         <li>
             <strong>Gap Analysis:</strong> Gain insights into what populations and disorders are under-represented in current research
-            (<em>with full discussion in our paper</em>).
+            (<em>with full discussion in our{" "}
+            <a href="#" style={styles.link}>
+            paper
+            </a>
+            </em>).
         </li>
         </ul>
 

@@ -98,10 +98,13 @@ function App() {
               <div 
                 style={{ 
                   display: 'flex', 
-                  overflowX: 'auto', 
+                  overflowX: 'hidden', 
                   whiteSpace: 'nowrap', 
-                  width: '100%' 
+                  width: '100%',
+                  position: 'relative',
                 }}
+                onMouseEnter={e => (e.currentTarget.style.overflowX = 'auto')}
+                onMouseLeave={e => (e.currentTarget.style.overflowX = 'hidden')}
               >
                 {chips}
               </div>
