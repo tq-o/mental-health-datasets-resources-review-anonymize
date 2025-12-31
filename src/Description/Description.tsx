@@ -12,7 +12,7 @@ export default function Description() {
         </h1> */}
 
         <strong style={styles.subtitle}>
-            A living resource tracking over 268 datasets across text,
+            A living resource tracking over 229 datasets across text,
             speech, and multimodal signals.
         </strong>
 
@@ -28,7 +28,7 @@ export default function Description() {
         {/* ,<em> [Insert Paper Title]</em> */}
         . Unlike previous surveys that focus on specific
         tasks or single modalities, this resource offers a holistic view of
-        268 datasets, <strong>categorized by:</strong>
+        229 datasets, <strong>categorized by:</strong>
         </p>
 
         <ul style={styles.list}>
@@ -87,7 +87,7 @@ export default function Description() {
         <h2 style={styles.sectionTitle}>What you will find here</h2>
         <ul style={styles.list}>
         <li>
-            <strong>Searchable Tables:</strong> Filter the full collection of 268 datasets by
+            <strong>Searchable Tables:</strong> Filter the full collection of 229 datasets by
             modality, task, and evaluation setting.
         </li>
         <li>
