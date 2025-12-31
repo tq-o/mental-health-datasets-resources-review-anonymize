@@ -21,9 +21,11 @@ To allow reviewers to assess the functionality and design of the interactive res
 - The complete website source code (anonymized)
 - Static data files used to generate the tables
 - Screenshots demonstrating key interactive features, including:
-  - Dataset filtering
-  - Column-based sorting
-  - Summary visualizations
+  - Dataset Overview Table (with Pagination)
+  - Table Filtering and Sorting Interface
+  - Mental Disorder Chart Visualization (with Pagination nad Sorting)
+  - Disorder Count Visualization
+  - Paper Count Per Year Visualization
 
 The live website will be made publicly accessible upon acceptance.
 
@@ -35,9 +37,9 @@ Below are representative screenshots of the interactive website. All screenshots
 
 ### Screenshot 1: Dataset Overview Table (with Pagination)
 ![Dataset Table Overview](public/screenshots/TablePagination.png)
-*Figure 1a. Paginated dataset overview table.*
+*Figure 1. Paginated dataset overview table.*
 
-### Screenshot 2: Filtering and Sorting Interface
+### Screenshot 2: Table Filtering and Sorting Interface
 ![Filtering Interface](public/screenshots/Filter.png)
 *Figure 2a. Column-based filtering interface.*
 
@@ -54,7 +56,8 @@ Below are representative screenshots of the interactive website. All screenshots
 
 ### Screenshot 5: Paper Count Per Year Visualization
 ![Paper Count Per Year Visualization](public/screenshots/PaperCountPerYear.png)
-*Figure 4. The number of papers associated with each year.*
+*Figure 5. The number of papers associated with each year.*
+
 ---
 
 ## Anonymity Statement
