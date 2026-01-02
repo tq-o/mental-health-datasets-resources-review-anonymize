@@ -96,11 +96,7 @@ export default function Description() {
         </li>
         <li>
             <strong>Gap Analysis:</strong> Gain insights into what populations and disorders are under-represented in current research
-            (<em>with full discussion in our{" "}
-            <a href="#" style={styles.link}>
-            paper
-            </a>
-            </em>).
+            (<em>with full discussion in our paper</em>).
         </li>
         </ul>
 
